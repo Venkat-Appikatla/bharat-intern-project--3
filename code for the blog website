@@ -1,0 +1,134 @@
+HTML CODE : 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Latest Posts</h2>
+            <article class="post">
+                <h3>Blog Post Title 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac urna nec arcu gravida efficitur.</p>
+                <a href="#">Read more...</a>
+            </article>
+            <article class="post">
+                <h3>Blog Post Title 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac urna nec arcu gravida efficitur.</p>
+                <a href="#">Read more...</a>
+            </article>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm [Your Name], a passionate blogger and web developer. I love to write about tech, programming, and more. Welcome to my blog!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+CSS CODE :
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+JAVA SCRIPT CODE :
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Add any JavaScript you need here
+});
+
